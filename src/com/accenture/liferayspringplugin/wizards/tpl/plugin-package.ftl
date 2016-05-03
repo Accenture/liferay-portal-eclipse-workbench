@@ -1,0 +1,29 @@
+name=${portletDisplayName}
+module-group-id=liferay
+module-incremental-version=1
+tags=
+short-description=
+long-description=
+change-log=
+page-url=http://www.liferay.com
+author=Liferay, Inc.
+licenses=EE
+liferay-versions=6.2.10+
+portal-dependency-jars=\
+  aopalliance.jar,\
+  commons-logging.jar,\
+  commons-io.jar,\
+  jstl-api.jar,\
+  jstl-impl.jar,\
+  log4j.jar,\
+  slf4j-api.jar,\
+  spring-aop.jar,\
+  spring-asm.jar,\
+  spring-beans.jar,\
+  spring-context.jar,\
+  spring-context-support.jar,\
+  spring-core.jar,\
+  spring-expression.jar,\
+  spring-web.jar,\
+  spring-web-portlet.jar,\
+  spring-web-servlet.jar

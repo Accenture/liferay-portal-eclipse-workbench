@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Liferay-spring-plugin
+Bundle-SymbolicName: liferay-eclipse-wb;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Accenture
+Require-Bundle: org.eclipse.core.resources,
+ org.eclipse.ui,
+ org.eclipse.ui.ide,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ClassPath: lib/freemarker.jar,
+ .

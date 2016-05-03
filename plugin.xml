@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="Liferay Spring Portlet Wizard"
+            id="liferay-spring-plugin">
+      </category>
+      <wizard
+            name="Liferay Spring Portlet Plugin Project"
+            icon="icons/sample.gif"
+            category="liferay-spring-plugin"
+            class="com.accenture.liferayspringplugin.wizards.LiferaySpringWizard"
+            id="com.accenture.liferayspringplugin.wizards.LiferaySpringWizard">
+      </wizard>
+      <wizard
+            category="liferay-spring-plugin"
+            class="com.accenture.liferayspringplugin.wizards.SpringPortletWizard"
+            icon="icons/sample.gif"
+            id="com.accenture.liferayspringplugin.wizards.SpringPortletWizard"
+            name="Add Spring Portlet to Existing Plugin project">
+      </wizard>
+   </extension>
+
+</plugin>
